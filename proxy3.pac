@@ -34,7 +34,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^test-kn-0018\.msk\.mts\.ru$/.test(host)) return "+proxy";
         if (/^prod-mn-0007\.pv\.mts\.ru$/.test(host)) return "+proxy";
         if (/^test-en-0004\.msk\.mts\.ru$/.test(host)) return "+proxy";
-        if (/^jupyterhub\.msk\.bd\.mts\.ru$/.test(host)) return "+bproxy";
+        if (/^jupyterhub\.msk\.bd\.mts\.ru$/.test(host)) return "+proxy";
         if (/^test-en-0005\.msk\.mts\.ru$/.test(host)) return "+proxy";
         if (/^test-kn-0001\.msk\.mts\.ru$/.test(host)) return "+proxy";
         if (/^en-bim\.msk\.bd\.mts\.ru$/.test(host)) return "+proxy";
